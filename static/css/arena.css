@@ -1,0 +1,57 @@
+
+#arena-map .tail {
+    margin: 3px;
+}
+
+.arena {
+    margin: 0;
+    padding: 0;
+}
+
+.arena .arena-row {
+    display: block;
+    clear: both;
+}
+
+.arena .arena-col {
+    float: left;
+    padding: 4px 12px;
+}
+
+.arena .tile-0 {
+    background-color: #04803a;
+    color: #04803a;
+}
+
+.arena .tile-1 {
+    background-color: #803900;
+    color: #803900;
+}
+
+.arena .tile-2 {
+    background-color: #8e8e8e;
+    color: #8e8e8e;
+}
+
+.arena .tile-boom {
+    background: #04803a url("../img/bomb.png") no-repeat center;
+    background-size: contain;
+}
+
+.arena .tile-boom-exp {
+    background: #04803a url("../img/bomb-exp.png") no-repeat center;
+    background-size: contain;
+}
+
+.arena .bot {
+}
+
+.arena .bot-red {
+    background: #04803a url("../img/tank-red.png") no-repeat center;
+    background-size: contain;
+}
+
+.arena .bot-blue {
+    background: #04803a url("../img/tank-blue.png") no-repeat center;
+    background-size: contain;
+}
